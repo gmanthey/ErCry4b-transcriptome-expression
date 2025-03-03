@@ -1,0 +1,10 @@
+name: ErCry4b-transcriptome-expression
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - matplotlib
+  - pandas
+  - numpy
+  - Biopython
+  - ipykernel
