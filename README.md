@@ -34,3 +34,5 @@ samtools view --regions-file Cry4.bed bEriRub_joined.sorted.bam | cut -f 1,13 > 
 bedtools getfasta -fi ~/work/genomes/bEriRub/bEriRub.fasta -fo Cry4.fasta -bed Cry4.gff -split -name
 ```
 6. The exons where then manually assembled into the different transcript sequences for `Cry4_all.fasta`.
+
+7. As a last step, the code in the [`make_plots.ipynb`](make_plots.ipynb) notebook was executed to generate the plots and run the statistical test.
